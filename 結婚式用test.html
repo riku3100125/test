@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>2つの表</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 6px 10px;
+      text-align: center;
+    }
+    .white-box {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #000;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1つ目の表：アルファベットを横向きに配置 -->
+ <table>
+  <tr>
+    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th>
+    <th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th>
+  </tr>
+  <tr>
+    <td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td>
+    <td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td>
+  </tr>
+
+  <tr>
+    <th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th>
+    <th>21</th><th>22</th><th>23</th><th>24</th><th>25</th><th>26</th>
+  </tr>
+  <tr>
+    <td>N</td><td>O</td><td>P</td><td>Q</td><td>R</td><td>S</td><td>T</td>
+    <td>U</td><td>V</td><td>W</td><td>X</td><td>Y</td><td>Z</td>
+  </tr>
+</table>
+
+
+  <!-- 2つ目の表：4文字の空欄とその上の数字 -->
+  <table>
+    <tr>
+      <th>0</th>
+      <th>+19</th>
+      <th>-13</th>
+      <th>+12</th>
+    </tr>
+    <tr>
+      <td><span class="white-box"></span></td>
+      <td><span class="white-box"></span></td>
+      <td><span class="white-box"></span></td>
+      <td><span class="white-box"></span></td>
+    </tr>
+  </table>
+
+</body>
+</html>
