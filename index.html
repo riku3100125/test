@@ -101,6 +101,50 @@
     display: inline-block;
     background: #fff;
   }
+
+  /* スマホ向け調整（画面幅600px以下） */
+@media screen and (max-width: 600px) {
+
+  body {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    padding: 20px 0 5px;
+    letter-spacing: 0.1em;
+  }
+
+  .box {
+    padding: 18px 20px;
+    margin: 15px 10px;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  table {
+    width: 95%;
+    font-size: 0.9rem;
+  }
+
+  .white-box {
+    width: 32px;
+    height: 32px;
+  }
+}
+
 </style>
 
 <script>
@@ -191,3 +235,4 @@
 
 </body>
 </html>
+
